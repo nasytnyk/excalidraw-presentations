@@ -1,0 +1,21 @@
+
+<!-- KO BEFORE -->
+
+<tbody data-bind="foreach: cargos">              <!-- Everything binded -->
+  <tr>
+    <td><input data-bind="value: RefNum" /></td> <!-- Two-way on all -->
+    <td><input data-bind="value: Origin" /></td> 
+    <td><input data-bind="value: Note" /></td>
+  </tr>
+</tbody>
+
+
+<!-- KO AFTER -->
+
+<tbody data-bind="foreach: rows">              <!-- 50 rows-->
+  <tr>
+    <td data-bind="text: RefNum"></td>          
+    <td data-bind="text: Origin"></td>           
+    <td><input data-bind="value: Note" /></td> <!-- Two-way on editable -->
+  </tr>
+</tbody>
