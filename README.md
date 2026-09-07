@@ -75,7 +75,7 @@
       </a>
     </td>
     <td width="16.6%" align="center">
-      <a href="project-logistics/render/04-ef-ko.png" target="_blank">
+      <a href="project-logistics/render/04-ko-ef-performance.png" target="_blank">
         <img src="project-logistics/render/112/04-ko-ef-performance.png" width="100%" alt="KO & EF performance">
       </a>
     </td>
